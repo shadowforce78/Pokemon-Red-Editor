@@ -10,19 +10,12 @@ namespace Pokemon_Red_Editor
             InitializeComponent();
         }
 
-        private void Editor_Load(object sender, EventArgs e)
-        {
+        private void Editor_Load(object sender, EventArgs e) { }
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void label1_Click(object sender, EventArgs e) { }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             OpenFileDialog ROM = new OpenFileDialog();
             ROM.Filter = "Gameboy ROM|*.gb";
 
@@ -34,34 +27,14 @@ namespace Pokemon_Red_Editor
             // send the ROM to a variable
             byte[] ROMBytes = System.IO.File.ReadAllBytes(ROM.FileName);
 
-
             // use the function from MainFunc.cs
             MainFunc MainFunc = new MainFunc();
             MainFunc.DisplayFourthFirstByte(ROM);
-
-
-
         }
 
+        private void tabPage4_Click(object sender, EventArgs e) { }
 
-        private void tabPage4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void tabPage1_Click(object sender, EventArgs e) { }
 
         private void button2_Click(object sender, EventArgs e)
         {
