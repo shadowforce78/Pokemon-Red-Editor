@@ -35,30 +35,13 @@ namespace Pokemon_Red_Editor
             byte[] ROMBytes = System.IO.File.ReadAllBytes(ROM.FileName);
 
 
-            //PrintFourthFirstByte(ROM);
+            // use the function from MainFunc.cs
+            MainFunc MainFunc = new MainFunc();
+            MainFunc.DisplayFourthFirstByte(ROM);
+
 
 
         }
-
-        // function to read the ROM bytes
-        public void PrintFourthFirstByte(OpenFileDialog ROM)
-        {
-            // read the ROM file
-            byte[] ROMBytes = System.IO.File.ReadAllBytes(ROM.FileName);
-            // read the first 4 bytes of the ROM
-            byte[] ROMHeader = new byte[4];
-            Array.Copy(ROMBytes, 0, ROMHeader, 0, 4);
-            // message box to show the first 4 bytes of the ROM
-            MessageBox.Show(ROMHeader[0].ToString() + ROMHeader[1].ToString() + ROMHeader[2].ToString() + ROMHeader[3].ToString());
-        }
-
-
-
-
-
-
-
-
 
 
         private void tabPage4_Click(object sender, EventArgs e)
@@ -80,6 +63,9 @@ namespace Pokemon_Red_Editor
 
         }
 
-
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ROM saved");
+        }
     }
 }
