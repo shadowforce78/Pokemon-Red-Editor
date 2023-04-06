@@ -1,0 +1,11 @@
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\bin\Debug\Pokemon Red Editor.exe.config
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\bin\Debug\Pokemon Red Editor.exe
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\bin\Debug\Pokemon Red Editor.pdb
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon Red Editor.csproj.AssemblyReference.cache
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon Red Editor.csproj.SuggestedBindingRedirects.cache
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon_Red_Editor.Editor.resources
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon_Red_Editor.Properties.Resources.resources
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon Red Editor.csproj.GenerateResource.cache
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon Red Editor.csproj.CoreCompileInputs.cache
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon Red Editor.exe
+C:\Users\adamp\OneDrive\Bureau\Dossier\pokemrom\editor\Pokemon Red Editor\obj\Debug\Pokemon Red Editor.pdb
