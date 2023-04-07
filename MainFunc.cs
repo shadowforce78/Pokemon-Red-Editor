@@ -17,7 +17,7 @@ namespace Pokemon_Red_Editor
             byte[] ROMHeader = new byte[4];
             Array.Copy(ROMBytes, 0, ROMHeader, 0, 4);
             // message box to show the first 4 bytes of the ROM
-            MessageBox.Show(
+            _ = MessageBox.Show(
                 ROMHeader[0].ToString()
                     + ROMHeader[1].ToString()
                     + ROMHeader[2].ToString()
