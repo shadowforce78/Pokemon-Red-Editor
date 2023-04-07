@@ -29,7 +29,7 @@ namespace Pokemon_Red_Editor
 
             // use the function from MainFunc.cs
             MainFunc MainFunc = new MainFunc();
-            MainFunc.DisplayFourthFirstByte(ROM);
+            MainFunc.DisplayPokeNames(ROM);
         }
 
         private void tabPage4_Click(object sender, EventArgs e) { }

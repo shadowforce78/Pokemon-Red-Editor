@@ -9,20 +9,19 @@ namespace Pokemon_Red_Editor
 {
     internal class MainFunc
     {
-        public void DisplayFourthFirstByte(OpenFileDialog ROM)
+        public void DisplayPokeNames(OpenFileDialog ROM)
         {
             // read the ROM file
             byte[] ROMBytes = System.IO.File.ReadAllBytes(ROM.FileName);
-            // read the first 4 bytes of the ROM
-            byte[] ROMHeader = new byte[4];
-            Array.Copy(ROMBytes, 0, ROMHeader, 0, 4);
-            // message box to show the first 4 bytes of the ROM
-            _ = MessageBox.Show(
-                ROMHeader[0].ToString()
-                    + ROMHeader[1].ToString()
-                    + ROMHeader[2].ToString()
-                    + ROMHeader[3].ToString()
-            );
+            // get the offset of the first pokemon name
+            int offset = 0x3D5E;
+            // get the length of the first pokemon name
+            int length = 0x0A;
+            // get the first pokemon name
+            string pokeName = System.Text.Encoding.ASCII.GetString(ROMBytes, offset, length);
+            // display the first pokemon name
+            MessageBox.Show(pokeName);
+
         }
     }
 }
