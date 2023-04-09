@@ -24,12 +24,9 @@ namespace Pokemon_Red_Editor
                 label1.Text = ROM.SafeFileName;
             }
 
-            // send the ROM to a variable
-            byte[] ROMBytes = System.IO.File.ReadAllBytes(ROM.FileName);
-
             // use the function from MainFunc.cs
-            MainFunc MainFunc = new MainFunc();
-            MainFunc.DisplayPokeNames(ROM);
+            PokemonNames PokeFunction = new PokemonNames();
+            PokeFunction.DisplayPokeNames(ROM);
         }
 
         private void tabPage4_Click(object sender, EventArgs e) { }
